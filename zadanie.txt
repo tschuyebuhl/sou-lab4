@@ -1,0 +1,45 @@
+Napisać skrypt, który na podstawie logów serwera apache2 będzie generował serię wykresów obrazujących, ile zdarzeń danego typu występowało w określonym miesiącu. Plik zawierający logi powinien być dołączony do zadania. Student powinien wybrać przynajmniej 5 zdarzeń, dla których skrypt będzie generował wykresy. Zaimplementować filtrowanie miesięcy na podstawie wartości podawanych w parametrach pozycyjnych. Rozwiązanie musi zawierać funkcje.
+
+Rozkompresowanie pliku:
+> 7z x access.log.7z
+
+Przykładowy wynik działania skryptu:
+
+#================================================
+#					STYCZEŃ                     #
+#================================================
+
+Typ 1: |++++++++++++++++++++++++++>
+Typ 2: |+++++++++>
+Typ 3: |+++++++++++++++++++++>
+Typ 4: |+++++++++++++++++>
+Typ 5: |+++++++++++++++++++++++++>
+Typ 6: |++++++++++++++++>
+
+|------------------------------------------------
+Legenda:
+
+Typ 1: Zdarzenie ....
+Typ 2: Zdarzenie ....
+...
+
+#================================================
+#                    LUTY                       #
+#================================================
+
+Typ 1: |++++++++++++++++++++++++++>
+Typ 2: |+++++++++>
+Typ 3: |+++++++++++++++++++++>
+Typ 4: |+++++++++++++++++>
+Typ 5: |+++++++++++++++++++++++++>
+Typ 6: |++++++++++++++++>
+
+|------------------------------------------------
+Legenda:
+
+Typ 1: Zdarzenie ....
+Typ 2: Zdarzenie ....
+...
+
+#================================================
+...
