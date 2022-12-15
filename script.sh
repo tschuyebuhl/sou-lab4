@@ -63,6 +63,18 @@ while read -r line; do
 	echo $reqtype
 	echo $result
 	echo $size
+	#podawac ip, month, reqtype, result, size
+	#na wykresie:
+	#IP Zewnetrzne:
+	#IP Publiczne:
+	#GET:
+	#POST:
+	#FETCH:
+	#OPTIONS
+	#result not 200
+	#result 200
+	#requesty wieksze niz x  
 	createGraph $month
+
 	
 done < oneline
